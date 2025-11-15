@@ -1,14 +1,16 @@
-# Basic Password Generator
+# Secure Password Generator
 
-A straightforward Python script for generating random passwords using letters, digits, and a safe set of punctuation characters.  
-This version uses Python’s built-in `random` module for simplicity and quick prototyping.
+A simple, configurable Python utility for generating strong random passwords using cryptographically secure methods.  
+This script is designed with security best practices in mind, ensuring safe character sets and customizable policies.
 
 ---
 
 ## Features
-- Generates random passwords with letters, digits, and selected punctuation (`!@#$%^&*`).
+- Uses Python’s `secrets` module for **cryptographic randomness** (safer than `random`).
 - Configurable password length (default: 15 characters).
-- Lightweight and beginner-friendly — no external dependencies.
+- Customizable punctuation set (default: `!@#$%^&*`).
+- Ensures high entropy and avoids unsafe punctuation that may cause parsing issues.
+- Lightweight and easy to integrate into other projects or labs.
 
 ---
 
@@ -16,5 +18,5 @@ This version uses Python’s built-in `random` module for simplicity and quick p
 Clone the repository or copy the script into your project:
 
 ```bash
-git clone https://github.com/AnthonyGordon1/password-generator-basic.git
-cd password-generator-basic
+git clone https://github.com/your-username/password-generator.git
+cd password-generator
