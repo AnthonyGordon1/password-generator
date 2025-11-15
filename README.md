@@ -18,5 +18,5 @@ This script is designed with security best practices in mind, ensuring safe char
 Clone the repository or copy the script into your project:
 
 ```bash
-git clone https://github.com/your-username/password-generator.git
+git clone https://github.com/AnthonyGordon1/password-generator.git
 cd password-generator
